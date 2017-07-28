@@ -1,0 +1,63 @@
+.box {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+#blue {
+    background-color: rgba(0, 0, 255, 0.7);
+    z-index: 1;
+} 
+
+#red {
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    position:absolute;
+}
+h3{
+    float: right;
+    margin: 25px;
+}
+body{
+     background-image: url("http://wallpapercave.com/wp/2j4Ah48.jpg");
+}
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    }
+#board{
+    display:none;
+}
+
+#game{
+    /*display:none;*/
+    position: relative;
+    height: 385px;
+    background: url("https://i.stack.imgur.com/WHu9Z.png") repeat-x;   
+    
+}
+
+#mario{
+    height:100px;
+    position: absolute;
+    bottom: 60px;
+    left: 285px;
+}
+
+#coin{
+    height:50px;  
+    position: absolute;
+    bottom: 250px;
+    left: 300px;
+}
+p1{
+   text-align: center;
+   font-size:32px;
+   color: white; 
+}
