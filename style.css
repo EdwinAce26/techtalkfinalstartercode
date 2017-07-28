@@ -61,3 +61,21 @@ p1{
    font-size:32px;
    color: white; 
 }
+
+
+
+
+h1{
+    text-align:center;
+}
+iframe{
+        height:400px;
+        width:700px; 
+}
+body{
+    text-align:center;
+    font-size:250%;
+    background-image: url("http://wallpapercave.com/wp/SvqeCF7.jpg");
+    color:purple;
+}
+

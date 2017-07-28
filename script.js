@@ -1,3 +1,4 @@
+$(document).ready(function(){ 
     $("#game").hide();
     $("#gamescreen2").hide();
     $("#gamescreen1").hide();
@@ -98,3 +99,5 @@ function marioJump(pixels){
         $("#mario").animate({ "bottom" : 60}, 150);
     });
     }
+    
+});
